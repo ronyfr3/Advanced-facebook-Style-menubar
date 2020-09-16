@@ -1,0 +1,22 @@
+/* :root{
+    --bg: black;
+    --bg-accent: gray;
+    --text-color: white;
+    --nav-size: 60px;
+    --border-radius: 8px;
+    --speed: 500ms;
+    --border: 1px solid gray;
+} */
+*{
+    text-decoration: none;
+    list-style: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+Link{
+    color: white;
+    text-decoration: none;
+}
