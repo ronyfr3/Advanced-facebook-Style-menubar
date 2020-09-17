@@ -1,4 +1,4 @@
-// import onClickOutside from 'react-onclickoutside'
+
 import {BiArrowBack} from 'react-icons/bi'
 import {CgProfile} from 'react-icons/cg'
 import {MdSettingsApplications} from 'react-icons/md'
@@ -105,7 +105,7 @@ function DropdownMenu() {
 
       <CSSTransition
                   in={activeMenu === 'settings'}
-                  timeout={180}
+                  timeout={150}
                   classNames="menu-secondary"
                   unmountOnExit
                   onEnter={calcHeight}>
@@ -113,17 +113,17 @@ function DropdownMenu() {
           <DropdownItem 
                   goToMenu="main" 
                   leftIcon={<BiArrowBack />}>
-                  <h2>My Tutorial</h2>
+                  <h2>Tools</h2>
           </DropdownItem>
-          <DropdownItem>HTML</DropdownItem>
-          <DropdownItem>CSS</DropdownItem>
-          <DropdownItem>JavaScript</DropdownItem>
+          <DropdownItem>LoL</DropdownItem>
+          <DropdownItem>Wow</DropdownItem>
+          <DropdownItem>Nice</DropdownItem>
           <DropdownItem>Awesome!</DropdownItem>
         </div>
       </CSSTransition>
       <CSSTransition
                   in={activeMenu === 'Myprofile'}
-                  timeout={180}
+                  timeout={150}
                   classNames="menu-secondary"
                   unmountOnExit
                   onEnter={calcHeight}>
@@ -139,7 +139,7 @@ function DropdownMenu() {
 
       <CSSTransition
                   in={activeMenu === 'products'}
-                  timeout={180}
+                  timeout={150}
                   classNames="menu-secondary"
                   unmountOnExit
                   onEnter={calcHeight}>
@@ -157,7 +157,7 @@ function DropdownMenu() {
       </CSSTransition>
       <CSSTransition
                   in={activeMenu === 'orders'}
-                  timeout={180}
+                  timeout={150}
                   classNames="menu-secondary"
                   unmountOnExit
                   onEnter={calcHeight}>
@@ -176,7 +176,7 @@ function DropdownMenu() {
 
       <CSSTransition
         in={activeMenu === 'animals'}
-        timeout={180}
+        timeout={150}
         classNames="menu-secondary"
         unmountOnExit
         onEnter={calcHeight}>
